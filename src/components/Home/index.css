@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    font-family: 'Space Grotesk';
+}
+
+.sm-device {
+    background: var(--color-cyan-6, rgba(0, 22, 29, 1));
+}
+
+.sm-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.main-tagline {
+    /* When Innovation Meets */
+    width: 175px;
+    height: 129px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35.8594px;
+    line-height: 43px;
+    /* or 120% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.72px;
+    /* qubic.org/White */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 5px;
+}
+
+.innovation-btn {
+    /* Background */
+
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 14px;
+    isolation: isolate;
+    margin-top: 0px;
+
+    width: 203px;
+    height: 44px;
+
+    /* qubic.org/French Pass */
+    background: #B0F9FF;
+    border-radius: 56px;
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+    outline: none;
+    border: none;
+
+    font-weight: 400;
+    font-size: 32px;
+    cursor: pointer;
+    
+}
+
+.main-paragraph {
+    color: var(--color-cyan-8570, rgba(176, 250, 255, 0.7));
+    width: 350px;
+    text-align: center;
+}
+
+.open-dapp-btn {
+    /* CTA */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+
+    width: 131px;
+    height: 44px;
+
+    /* qubic.org/Onahau */
+    background: #CDFCFF;
+    box-shadow: 0px 1px 4px rgba(55, 197, 229, 0.12), 0px 4px 6px rgba(55, 197, 229, 0.12), 0px 4px 12px rgba(55, 197, 229, 0.12), 0px 6px 20px rgba(55, 197, 229, 0.12), inset 0px -8px 16px -4px rgba(55, 197, 229, 0.6), inset 0px 0px 4px 2px rgba(255, 255, 255, 0.12), inset 0px 1px 1px #4CDDFD, inset 0px 0px 1px 1px #4CDDFD;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+
+@media(max-width: 767px){
+    .lg-device {
+        display: none;
+    }
+}
+
+@media(min-width: 768px){
+    .sm-device {
+        display: none;
+    }
+
+    .lg-device-main-container {
+        background-image: url("https://res.cloudinary.com/davbz0f7y/image/upload/v1729057433/Matrix%20Labs%20Assignment/hl492ax9z7hshzi6h52k.png");
+        background-size: cover;
+        height: 100vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding: 10px;
+    }
+
+    .lg-home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lg-main-heading-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .lg-main-heading1 {
+        color: #FFFFFF;
+        font-size: 45px;
+        margin-bottom: 3px;
+        font-weight: 500;
+    }
+
+    .lg-main-heading2 {
+        color: #FFFFFF;
+        font-size: 45px;
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        font-weight: 500;
+    }
+
+    .lg-investment-tag {
+        /* Background */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-size: 45px;
+        
+        color: #000000;
+        height: 33px;
+
+        background: #B0F9FF;
+        border-radius: 56px;
+
+        /* Inside auto layout */
+        flex: none;
+        flex-grow: 0;
+        margin-left: 10px;
+
+    }
+
+    .lg-main-paragraph {
+        color: var(--color-cyan-8570, rgba(176, 250, 255, 0.7));
+        text-align: center;
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+    .lg-open-dapp-btn {
+        /* CTA */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        outline: none;
+        border: none;
+        align-self: center;
+        color: #FFFFFF;
+        cursor: pointer;
+        width: 131px;
+        height: 44px;
+        left: calc(50% - 131px/2);
+        bottom: 0px;
+        font-size: 15px;
+        background: rgba(139, 249, 232, 0.01);
+        box-shadow: inset 0px 0px 40px rgba(139, 249, 232, 0.2);
+        backdrop-filter: blur(3.75px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 12px;
+
+    }
+
+    .lg-features-container {
+        background: var(--color-cyan-6, rgba(0, 22, 29, 1));
+    }
+}
+

@@ -1,0 +1,218 @@
+
+
+.sm-about-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.sm-about-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+}
+
+.sm-about-heading {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.sm-about-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(176, 250, 255, 0.7);
+    text-align: center;
+}
+
+
+.sm-about-read-more-btn {
+    /* Link */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+
+    width: 109px;
+    height: 40px;
+
+    /* qubic.org/Onahau */
+    background: #CDFCFF;
+    box-shadow: 0px 1px 4px rgba(55, 197, 229, 0.12), 0px 4px 6px rgba(55, 197, 229, 0.12), 0px 4px 12px rgba(55, 197, 229, 0.12), 0px 6px 20px rgba(55, 197, 229, 0.12), inset 0px -8px 16px -4px rgba(55, 197, 229, 0.6), inset 0px 0px 4px 2px rgba(255, 255, 255, 0.12), inset 0px 1px 1px #4CDCFC, inset 0px 0px 1px 1px #4CDDFD;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    align-self: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    
+}
+
+.sm-about-each-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(12, 43, 47, 0.7);
+    border: 1px solid #0F373C;
+    padding: 10px;
+    width: 85vw;
+    margin-top: 30px;
+    border-radius: 16px;
+}
+
+.sm-about-each-details {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.sm-about-each-img {
+    height: 30px;
+    width: 30px;
+}
+
+.sm-each-about-heading {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sm-each-about-description{
+    color: rgba(176, 250, 255, 0.7);
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+@media(max-width: 767px){
+    .lg-about-container{
+        display: none;
+    }
+}
+
+@media(min-width:768px){
+    .sm-about-container{
+        display: none;
+    }
+
+    .lg-about-container {
+        background: var(--color-cyan-6, rgba(0, 22, 29, 1));
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lg-about-company-details-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lg-about-heading {
+        font-size: 25px;
+        font-weight: 500;
+        color: #FFFFFF;
+        margin-bottom: 0px;
+    }
+    
+    .lg-about-description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        width: 60vw;
+        color: rgba(176, 250, 255, 0.7);
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+    
+    .lg-about-read-more-btn {
+        /* Link */
+    
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 20px;
+    
+        width: 109px;
+        height: 40px;
+    
+        /* qubic.org/Onahau */
+        background: #CDFCFF;
+        box-shadow: 0px 1px 4px rgba(55, 197, 229, 0.12), 0px 4px 6px rgba(55, 197, 229, 0.12), 0px 4px 12px rgba(55, 197, 229, 0.12), 0px 6px 20px rgba(55, 197, 229, 0.12), inset 0px -8px 16px -4px rgba(55, 197, 229, 0.6), inset 0px 0px 4px 2px rgba(255, 255, 255, 0.12), inset 0px 1px 1px #4CDCFC, inset 0px 0px 1px 1px #4CDDFD;
+        border-radius: 12px;
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    
+        align-self: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .lg-about-each-main-container {
+        /* Overlay */
+        width: 744px;   
+        left: calc(50% - 744px/2);
+        top: calc(50% - 400px/2);
+        padding: 15px;
+        background: #08252A;
+        border-radius: 20px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .lg-about-each-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(12, 43, 47, 0.7);
+        border: 1px solid #0F373C;
+        padding: 10px;
+        width: 85vw;
+        margin-top: 30px;
+        border-radius: 16px;
+    }
+
+    .lg-about-each-details {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: 320px;
+    }
+
+}

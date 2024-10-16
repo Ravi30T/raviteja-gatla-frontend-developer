@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# EthAi - AI-Powered dApp for Crypto Trading
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+EthAi is an innovative platform designed to make crypto trading easier and more intuitive. It leverages AI-powered tools to provide users with the latest market trends, track top traders’ movements, and empower them with data-driven insights to make smarter decisions. The dApp offers a seamless and personalized experience for both novice and experienced traders.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Home Page
+- Welcome Section: Engages users with a dynamic introduction to the platform.
+- Call to Action: A button to quickly access the dApp.
 
-### `npm start`
+### Our Features
+- Trade Optimizer: Personalized trade suggestions to help users capitalize on the right moments to buy or sell.
+- Market Insight: Real-time updates on market trends and the activities of top traders.
+- Risk Guard: Alerts users about market swings and potential risks.
+- Portfolio Sync: An easy way to manage portfolios and track performance.
+- Opportunity Scout: Discover new projects and emerging opportunities in the crypto space.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### About Us
+- About EthAi: Information about EthAi’s mission and goals to help traders stay ahead with AI-powered insights.
+- Key Features: Engaging icons and cards to highlight the core benefits of the platform, such as staying ahead with trustable insights and future-proof strategies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Roadmap
+- Phase 1: Launch of core features like AI agents and user onboarding.
+- Phase 2: Introduction of advanced AI agents, partnerships, and UI optimizations.
+- Phase 3: Full-scale deployment with enhanced features, API integration, and continuous improvements.
 
-### `npm test`
+### Explore Our dApp
+- AI-Powered Features: Asset recommendations, market analysis, and personalized Q&A tailored for traders.
+- Real-Time Insights: Monitoring smart money flows and tracking key wallets to help users make informed decisions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frequently Asked Questions (FAQ)
+- Provides users with answers to common questions about the dApp and its functionalities.
 
-### `npm run build`
+### Footer
+- Contains useful links and social media handles for further engagement.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+To run this project locally, ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ravi30T/raviteja-gatla-frontend-developer.git

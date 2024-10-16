@@ -1,0 +1,44 @@
+
+
+.sm-takenomics-main-container {
+    position: relative; /* Allows positioning of child elements */
+    width: 100vw; /* Full width */
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 50%, #00161D 100%);
+  }
+  
+  .background-video {
+    position: fixed; /* Positions the video */
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    min-width: 100%; /* Minimum width */
+    min-height: 100%; /* Minimum height */
+    width: auto; /* Auto width */
+    height: auto; /* Auto height */
+    z-index: -1; /* Places the video behind the content */
+    transform: translate(-50%, -50%); 
+    pointer-events: none;
+    object-fit: cover;
+  }
+  
+  .sm-takenomics-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      z-index: 1;
+      position: relative;
+  }
+  
+  .sm-takenomics-heading {
+      font-weight: 500;
+      font-size: 48px;
+      color: #FFFFFF;
+  }
+
+  @media(max-width: 767px) {
+    .lg-takenomics-container {
+      display: none;
+    }
+  }

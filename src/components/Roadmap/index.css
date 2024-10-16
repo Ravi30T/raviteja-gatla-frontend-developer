@@ -1,0 +1,148 @@
+
+
+.sm-roadmap-container {
+    margin-top: 20px;
+}
+
+.sm-roadmap-heading {
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sm-each-roadmap-stage-container {
+    padding: 10px;
+}
+
+.sm-phase-num {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.sm-phase-num-heading {
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.sm-each-stage-details {
+    display: flex;
+    align-items: center;
+}
+
+.sm-stage-details-tick {
+    height: 25px;
+    width: 25px;
+}
+
+.sm-each-stage-description {
+    color: rgba(239, 239, 232, 1);
+    margin-left: 15px;
+}
+
+.sm-each-stage-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sm-faq-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.sm-faq-heading {
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.sm-each-faq-question-answer-container {
+    display: flex;
+    align-items: center;
+}
+
+.sm-faq-open-btn {
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #355A61;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.sm-faq-question {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.sm-explore-app-main-container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.sm-explore-our-dapp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #011C24;
+    box-shadow: inset 0px 0px 32px 16px rgba(99, 242, 255, 0.1);
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.sm-explore-app-heading {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.sm-explore-dapp-name {
+    color: rgba(98, 240, 254, 1);
+}
+
+.sm-explore-app-description {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 250;
+}
+
+.sm-explore-app-btn {
+    /* Link */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+
+    width: 139.71px;
+    height: 44px;
+
+    background: #CDFCFF;
+    box-shadow: 0px 1px 4px rgba(55, 197, 229, 0.12), 0px 4px 6px rgba(55, 197, 229, 0.12), 0px 4px 12px rgba(55, 197, 229, 0.12), 0px 6px 20px rgba(55, 197, 229, 0.12), inset 0px -8px 16px -4px rgba(55, 197, 229, 0.6), inset 0px 0px 4px 2px rgba(255, 255, 255, 0.12), inset 0px 1px 1px #4CDDFD, inset 0px 0px 1px 1px #4CDDFD;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+
+    margin-bottom: 15px;
+
+}

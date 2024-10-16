@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    font-family: 'Space Grotesk';
+}
+
+.sm-footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: #001117;
+    margin-top: 10px;
+}
+
+.sm-footer-hr-line {
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.06) 51.47%, rgba(255, 255, 255, 0) 100%);
+}
+
+.sm-footer-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.sm-footer-company-name {
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.sm-footer-social-links {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sm-social-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #082328;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+@media(max-width: 767px){
+    .lg-footer-container {
+        display: none;
+    }
+}
+
+
+@media(min-width: 768px) {
+    .sm-footer-container {
+        display: none;
+    }
+}

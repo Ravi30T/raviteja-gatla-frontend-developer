@@ -1,0 +1,443 @@
+
+
+.sm-our-features-container {
+
+    /* Container */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Auto layout */
+
+    padding: 32px 20px 56px;
+    gap: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.sm-our-features-heading {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.sm-our-features-cards-container {
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.sm-trade-optimizer-card {
+    /* Overlay */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 24px;
+    isolation: isolate;
+
+    width: 85vw;
+    height: 348px;
+
+    /* qubic.org/Firefly 70% */
+    background: rgba(12, 43, 47, 0.7);
+    border: 1px solid #0F373C;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.sm-each-feature-heading{
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    color: #FFFFFF;
+
+    font-size: 22px;
+    font-weight: 400;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 3px;
+}
+
+.sm-each-feature-description {
+    /* Paragraph */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 2px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    text-align: center;
+    color: rgba(176, 250, 255, 0.7);
+}
+
+.sm-market-insight-card {
+    /* Border */
+
+    
+    /* qubic.org/Elephant */
+    border: 1px solid #0F373C;
+    border-radius: 16px;
+    background: rgba(12, 43, 47, 0.7);
+
+    display: flex;
+
+    /* qubic.org/Firefly 70% */
+    background: rgba(12, 43, 47, 0.7);
+    border-radius: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 85vw;
+    padding: 10px;
+
+}
+
+.sm-market-insight-img{
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 100%;
+}
+
+.sm-market-insight-heading-description {
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 85vw;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    z-index: 2;
+
+
+}
+
+.sm-market-insight-heading {
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    color: #FFFFFF;
+
+    font-size: 18px;
+    font-weight: 400;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 3px;
+}
+
+.sm-market-insight-description {
+    
+
+    /* qubic.org/Space Grotesk/Regular 16 */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+
+    /* qubic.org/French Pass 70% */
+    color: rgba(176, 250, 255, 0.7);
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.sm-market-insight-img-container {
+    order: 1;
+}
+
+
+.sm-risk-guard-container {
+    background: rgba(12, 43, 47, 0.7);
+    border: 1px solid #0F373C;
+    border-radius: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sm-risk-guard-heading {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sm-risk-guard-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(176, 250, 255, 0.7);
+    text-align: center;
+}
+
+.sm-portfolio-sync-container {
+    display: flex;
+    background: rgba(12, 43, 47, 0.7);
+    border: 1px solid #0F373C;
+    border-radius: 16px;
+    
+}
+
+.sm-portfolio-sync-heading-description {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sm-portfolio-sync-heading {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.sm-portfolio-sync-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(176, 250, 255, 0.7);
+}
+
+.sm-portfolio-sync-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sm-portfolio-sync-img {
+    width: 100px;
+    border-bottom-right-radius: 16px;
+}
+
+.sm-opportunity-scout-container {
+    padding: 20px;
+    background: rgba(12, 43, 47, 0.7);
+    border: 1px solid #0F373C;
+    border-radius: 16px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.sm-opportunity-scout-heading {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sm-opportunity-scout-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(176, 250, 255, 0.7);
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+.sm-magnifying-glass {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    
+    background-image: url('https://res.cloudinary.com/davbz0f7y/image/upload/v1728988831/Matrix%20Labs%20Assignment/ur07qzled5tas3yb8qai.png'); /* Placeholder for actual image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+}
+
+@media(max-width: 767px) {
+    .lg-features-container {
+        display: none;
+    }
+}
+
+@media(min-width: 768px){
+    .sm-our-features-container {
+        display: none;
+    }
+
+    .lg-features-container {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lg-trade-market-risk-feature-heading-container {
+        display: flex;
+    }
+
+    .lg-trade-optimizer-container {
+        background: rgba(12, 43, 47, 0.7);
+        border: 1px solid #0F373C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 56px 16px 16px 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .lg-market-feature-heading-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .lg-market-insight-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(12, 43, 47, 0.7);
+        border: 1px solid #0F373C;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 16px;
+        padding: 10px;
+    }
+
+    .lg-features-heading-container {
+        /* qubic.org/Firefly 70% */
+        background: rgba(12, 43, 47, 0.7);
+        box-shadow: inset 0px 1px 25px rgba(29, 206, 242, 0.25);
+        border-radius: 16px;
+        border: 1px solid #0F373C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-right: 10px;
+        height: 290px;
+    }
+
+    .lg-our-features-heading {
+        color: #FFFFFF;
+        font-weight: 400;
+    }
+
+    .lg-risk-guard-container {
+        background: rgba(12, 43, 47, 0.7);
+        border: 1px solid #0F373C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px 56px 16px 16px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .lg-portfolio-opportunity-container {
+        display: flex;
+    }
+
+    .lg-portfolio-sync-container {
+        background: rgba(12, 43, 47, 0.7);
+        border: 1px solid #0F373C;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        border-radius: 16px 16px 16px 56px;
+    }
+
+    .lg-opportunity-main-container {
+        display: flex;
+        background: rgba(12, 43, 47, 0.7);
+        border: 1px solid #0F373C;
+        border-radius: 16px 16px 56px 16px;
+    }
+
+    .lg-opportunity-container {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lg-magnifying-glass {
+        width: 70px;
+        top: -108.37px;
+        left: 130.93px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+}
